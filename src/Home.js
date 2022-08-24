@@ -67,7 +67,7 @@ if(count>=1){
                             <span>Quantity</span>
                             <div className="d-flex">
                                 <button className="btn btn-default" onClick={Decnum}>-</button>
-                                <span className="btn btn-default">1</span>
+                                <span className="btn btn-default">{count}</span>
                                 <button className="btn btn-default me-2" onClick={Incnum}>+</button>
                                 <button className="btn btn-warning color-white">Add to cart</button>
                             </div>

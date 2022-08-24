@@ -29,30 +29,30 @@ if(count>=1){
     <>
             <div className="container main-container mt-4" style={{textAlign:"start"}}>
         <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-4" >
                 {/* <img src="./imgs/main sofa photo angelwise/mainSofa.png" className="preview_image" alt="" srcset=""/> */}
-                <img src={image} className="preview_image" alt="" srcset=""/>
+                <img src={image} className="preview_image" alt="" srcset="" data-aos="zoom-in"/>
                 <div className="d-flex img-list">
-                    <img src="./imgs/main sofa photo angelwise/mainsofa1.png" alt="" />
-                    <img src="./imgs/main sofa photo angelwise/mainsofa2.png" alt=""/>
-                    <img src="./imgs/main sofa photo angelwise/mainsofa3.png" alt=""/>
-                    <img src="./imgs/main sofa photo angelwise/mainsofa4.png" alt=""/>
-                    <img src="./imgs/main sofa photo angelwise/mainsofa5.png" alt=""/>
-                    <img src="./imgs/main sofa photo angelwise/mainsofa6.png" alt=""/>
+                    <img src="./imgs/main sofa photo angelwise/mainsofa1.png" alt="" data-aos="fade-left" data-aos-offset="150" data-aos-easing="ease-in-sine"/>
+                    <img src="./imgs/main sofa photo angelwise/mainsofa2.png" alt="" data-aos="fade-left" data-aos-offset="150" data-aos-easing="ease-in-sine"/>
+                    <img src="./imgs/main sofa photo angelwise/mainsofa3.png" alt="" data-aos="fade-left" data-aos-offset="150" data-aos-easing="ease-in-sine"/>
+                    <img src="./imgs/main sofa photo angelwise/mainsofa4.png" alt="" data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine"/>
+                    <img src="./imgs/main sofa photo angelwise/mainsofa5.png" alt="" data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine"/>
+                    <img src="./imgs/main sofa photo angelwise/mainsofa6.png" alt="" data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine"/>
 
                 </div>
             </div>
             <div className="col-md-8">
-                <h2>OSP Home Furnishings Wicker Papasan Chair with 360-Degree Swivel, Brown Frame with Cream Cushion</h2>
+                <h2 data-aos="fade-up" data-aos-duration="500">OSP Home Furnishings Wicker Papasan Chair with 360-Degree Swivel, Brown Frame with Cream Cushion</h2>
                 {/* <!-- options --> */}
                 <div>
                     <span className='mb-2'><b>Options: </b>Cream Cushion </span>
-                    <div className="d-flex option-img-list">
-                        <img src="./imgs/button type cushion 5 items/ashcushion.png" alt="" className='me-2' onClick={()=>changeImage('./imgs/main sofa photo angelwise/mainsofa.png')}/>
-                        <img src="./imgs/button type cushion 5 items/blackcushion.png" alt="" className='me-2' onClick={()=>changeImage('https://images.thdstatic.com/productImages/6b9f5fb1-183d-4276-b7e0-50ee8cd2d34b/svn/black-osp-home-furnishings-accent-chairs-bf25292-bk-e1_600.jpg')}/>
-                        <img src="./imgs/button type cushion 5 items/creamcushion.png" alt="" className='me-2' onClick={()=>changeImage('http://t0.gstatic.com/images?q=tbn:ANd9GcSrVsnEJE5LuY2zXF8JKOjKFM5Fp2GR6AptJgceT1vKOI8zBWdM')}/>
-                        <img src="./imgs/button type cushion 5 items/purplecushion.png" alt="" className='me-2' onClick={()=>changeImage('https://i5.walmartimages.com/asr/36b250f2-bf90-4f51-b7b0-044f598239eb_1.4ce19279e3e4ee1039c7e022b27258fb.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF')}/>
-                        <img src="./imgs/button type cushion 5 items/redcushion.png" alt="" className='me-2' onClick={()=>changeImage('https://i5.walmartimages.com/asr/8e6d6d4a-d65f-4d1e-9bb3-05961c102af7.e0a3ffd3dc6c71437774623dc0abb767.jpeg')}/>
+                    <div className="d-flex option-img-list  ">
+                        <img src="./imgs/button type cushion 5 items/ashcushion.png" alt="" className='me-2' onClick={()=>changeImage('./imgs/main sofa photo angelwise/mainsofa.png')} data-aos="fade-left" data-aos-offset="150" data-aos-easing="ease-in-sine"/>
+                        <img src="./imgs/button type cushion 5 items/blackcushion.png" alt="" className='me-2' onClick={()=>changeImage('https://images.thdstatic.com/productImages/6b9f5fb1-183d-4276-b7e0-50ee8cd2d34b/svn/black-osp-home-furnishings-accent-chairs-bf25292-bk-e1_600.jpg')}  data-aos="fade-left" data-aos-offset="150" data-aos-easing="ease-in-sine"/>
+                        <img src="./imgs/button type cushion 5 items/creamcushion.png" alt="" className='me-2' onClick={()=>changeImage('http://t0.gstatic.com/images?q=tbn:ANd9GcSrVsnEJE5LuY2zXF8JKOjKFM5Fp2GR6AptJgceT1vKOI8zBWdM')}  data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine"/>
+                        <img src="./imgs/button type cushion 5 items/purplecushion.png" alt="" className='me-2' onClick={()=>changeImage('https://i5.walmartimages.com/asr/36b250f2-bf90-4f51-b7b0-044f598239eb_1.4ce19279e3e4ee1039c7e022b27258fb.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF')}  data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine"/>
+                        <img src="./imgs/button type cushion 5 items/redcushion.png" alt="" className='me-2' onClick={()=>changeImage('https://i5.walmartimages.com/asr/8e6d6d4a-d65f-4d1e-9bb3-05961c102af7.e0a3ffd3dc6c71437774623dc0abb767.jpeg')} data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine"/>
                     </div>
                 </div>
 
@@ -60,7 +60,7 @@ if(count>=1){
                     <span className="crossed-price"><s> NRs. {Orginalprice*count} </s></span>
                     <div className="row">
                         <div className="col-md-6">
-                            <h3>NRs. {discountedPrice*count}</h3>
+                            <h3 data-aos="fade-up" data-aos-duration="1000">NRs. {discountedPrice*count}</h3>
                             <p>10% off <span>You save: NRs. {discount*count} </span></p>
                         </div>
                         <div className="col-md-6">
@@ -74,8 +74,8 @@ if(count>=1){
                         </div>
                     </div>
                     <div>
-                        <b>About this item</b>
-                        <ul>
+                        <b >About this item</b>
+                        <ul data-aos="fade-up" data-aos-duration="500">
                             <li>Create a laid back vibe in your home with our twist on the classeic papasan chair design</li>
                             <li>Nest into the generously large Dacron-filled cushion</li>
                             <li>Enjoy the boho styling of our durable resin wicker wrapped over a metal frame</li>
@@ -93,7 +93,7 @@ if(count>=1){
                 </div>
             </div>
         </div>
-        <div className="d-flex justify-content-center flex-column align-items-center">
+        <div className="d-flex justify-content-center flex-column align-items-center" data-aos="fade-up" data-aos-duration="4000">
             <nav>
                 <div className="nav nav-tabs" id="nav-tab" role="tablist">
                   <button className="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Description</button>
